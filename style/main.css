@@ -1,0 +1,37 @@
+h1 { color:red; }
+
+.squer {
+	color: red;
+	height: 100px;
+	width: 100px;
+	border: 2px solid #FFFFFF;
+	margin: 10px;
+	/*Test transition*/
+	-webkit-transition: width 0.5s, height 0.5s; /*For webkit*/
+	-webkit-transition-timing-function: cubic-bezier(0,0,0.58,1);
+	transition: width 0.5s, height 0.5s;
+	transition-timing-function: cubic-bezier(0,0,0.58,1);
+}
+
+.squer:hover {
+	opacity: 1;
+	width: 120px;
+	height: 120px;
+	border: 2px solid #000000;
+}
+
+.squer:before {
+	content: ""
+	opacity: 1;
+	width: 120px;
+	height: 120px;
+	border: 2px solid #000000;
+}
+
+.squer:after {
+	content: ""
+	opacity: 1;
+	width: 120px;
+	height: 120px;
+	border: 2px solid #000000;
+}
