@@ -59,11 +59,27 @@
 
 		<h1>Testovacia stranka</h1>
 
-		<div class="squer">
-			Hello this is testing squer.
-		</div>
+		<div style="width: 800px; height: 250px;">
+			<div class="afsquare" style="width: 200px; height: 200px">
+				<div class="squer">
+					Hello this is testing squer.
+				</div>
+			</div>
 
-		<div class="test-squer" style="width: 100px; height: 100px; border: 2px solid black; margin: 10px;"></div>
+			<div class="afsquare" style="width: 200px; height: 200px">
+				<div class="squer">
+					Hello this is testing squer.
+				</div>
+			</div>
+
+			<div class="afsquare" style="width: 200px; height: 200px">
+				<div class="squer">
+					Hello this is testing squer.
+				</div>
+			</div>
+		</div>
+			
+		</div>
 
 		<form action="index.php" method="POST" name="form">
 			<input type="text" name="username1" value=""></br>
